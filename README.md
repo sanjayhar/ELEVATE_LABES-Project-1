@@ -14,6 +14,7 @@ Nginx → serving a static website
 
 ### 📂 Project Structure
 ci-cd-docker-pipeline/
+
 │── index.html              # Static website
 
 │── style.css               # Styling
