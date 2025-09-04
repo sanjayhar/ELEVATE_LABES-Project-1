@@ -15,9 +15,13 @@ Nginx → serving a static website
 ### 📂 Project Structure
 ci-cd-docker-pipeline/
 │── index.html              # Static website
+
 │── style.css               # Styling
+
 │── Dockerfile              # Build Docker image
+
 │── docker-compose.yml      # Run container locally
+
 │── README.md               # Project documentation
 
 ### ⚙️ CI/CD Workflow
