@@ -20,7 +20,8 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build Docker image
-        run: docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/ci-cd-static-site:latest ./Projects/ci-cd-docker-pipeline
+        run: docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/ci-cd-static-site:latest .
+
 
 
       - name: Push Docker image
